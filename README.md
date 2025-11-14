@@ -28,7 +28,6 @@ This project stores tasks in JSON files and includes features like priorities, d
 
 
 🏗️ Project Structure
-'''
 ToDo-CLI/
 │
 ├── todo.py            # Main CLI program
@@ -36,7 +35,7 @@ ToDo-CLI/
 ├── completed.json     # Stores completed tasks history
 ├── sss/               # Contains screenshots (optional folder)
 └── README.md          # Documentation
-'''
+
 
 🔧 Installation
 
