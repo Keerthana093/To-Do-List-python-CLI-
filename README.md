@@ -97,8 +97,6 @@ Stores completed tasks with:
 
 📸 Screenshots
 
-You can add screenshots using:
-
 ![Screenshot](sss/your_image_name.png)
 
 
