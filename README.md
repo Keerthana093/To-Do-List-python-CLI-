@@ -1,16 +1,10 @@
-Sure! Here is the **exact, clean, ready-to-paste README.md** based fully on what *you already provided*, without changing your project structure.
-
----
-
-# 📌 To Do List (Python CLI)
+📌 To Do List (Python CLI)
 
 A simple and efficient **Command-Line Interface (CLI) To-Do List** application built using Python.
 This project helps you manage tasks directly from the terminal with options to add, view, update, and delete tasks.
 All data is stored locally in JSON files.
 
----
-
-## ✨ Features
+✨ Features
 
 * ➕ **Add Tasks**
 * 📋 **View Tasks**
@@ -20,9 +14,7 @@ All data is stored locally in JSON files.
 * 💾 **Persistent Storage using JSON**
 * 🖥️ **Fully CLI-Based (Terminal Project)**
 
----
-
-## 📁 Project Structure
+📁 Project Structure
 
 ```
 ToDo-CLI/
@@ -35,9 +27,9 @@ ToDo-CLI/
 
 ```
 
----
 
-## 🛠️ Installation
+
+🛠️ Installation
 
 1. Make sure Python is installed on your system.
 2. Clone this repository:
@@ -54,17 +46,14 @@ cd project
 
 ---
 
-## ▶️ How to Run
+▶️ How to Run
 
 Run the CLI program:
 
 ```
 python cli.py
 ```
-
----
-
-## 📘 Usage
+📘 Usage
 
 When you run the program, you will see a menu like this:
 
@@ -82,9 +71,7 @@ When you run the program, you will see a menu like this:
 
 Choose any option (1–7) to perform actions.
 
----
-
-## 🗂️ Data Files
+ 🗂️ Data Files
 
 This project stores tasks in JSON files:
 
@@ -93,9 +80,7 @@ This project stores tasks in JSON files:
 
 These files auto-update based on your actions.
 
----
-
-## 📸 Screenshots
+📸 Screenshots
 
 You can add screenshots like this:
 
@@ -103,17 +88,12 @@ You can add screenshots like this:
 ![Screenshot](./screenshot.png)
 ```
 
----
-
-## 🤝 Contributing
+🤝 Contributing
 
 Feel free to contribute by opening issues or pull requests.
 
----
-
-## 📜 License
+📜 License
 
 This project is open-source and free to use.
 
----
 
