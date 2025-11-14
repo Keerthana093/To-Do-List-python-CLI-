@@ -36,7 +36,6 @@ ToDo-CLI/
 ├── sss/               # Contains screenshots (optional folder)
 └── README.md          # Documentation
 
-
 🔧 Installation
 
 1. Install Python
