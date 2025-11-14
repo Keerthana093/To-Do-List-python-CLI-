@@ -1,33 +1,30 @@
-📌 To-Do List (Python CLI)
+Sure! Here is the **exact, clean, ready-to-paste README.md** based fully on what *you already provided*, without changing your project structure.
 
-A structured and persistent **Command-Line To-Do List Application** built using Python.
-This project stores tasks in JSON files and includes features like priorities, deadlines, daily tasks, task editing, completed-task tracking, and color-formatted CLI output.
+---
 
-⭐ Features
+# 📌 To Do List (Python CLI)
 
-* Add tasks with:
+A simple and efficient **Command-Line Interface (CLI) To-Do List** application built using Python.
+This project helps you manage tasks directly from the terminal with options to add, view, update, and delete tasks.
+All data is stored locally in JSON files.
 
-  * Title
-  * Priority (low / medium / high)
-  * Description
-  * Deadline (YYYY-MM-DD)
-  * Option for daily tasks (no deadline required)
-* Edit tasks without losing data
-* Delete tasks individually
-* Mark tasks as completed (tracked with completion date)
-* Compare deadline vs completion date
-* View all tasks in a clean, color-coded layout
-* Persistent storage using JSON files
-* Input validation for:
+---
 
-  * Dates
-  * Priorities
-  * Task numbers
-  * Empty fields
- * Fully CLI-based
+## ✨ Features
 
+* ➕ **Add Tasks**
+* 📋 **View Tasks**
+* 🔄 **Update Tasks**
+* ❌ **Delete Tasks**
+* 📝 **Mark Tasks as Completed / Pending**
+* 💾 **Persistent Storage using JSON**
+* 🖥️ **Fully CLI-Based (Terminal Project)**
 
-🏗️ Project Structure
+---
+
+## 📁 Project Structure
+
+```
 ToDo-CLI/
 │
 ├── todo.py            # Main CLI program
@@ -36,78 +33,87 @@ ToDo-CLI/
 ├── sss/               # Contains screenshots (optional folder)
 └── README.md          # Documentation
 
-🔧 Installation
+```
 
-1. Install Python
+---
 
-Download from: https://www.python.org/downloads/
+## 🛠️ Installation
 
-2. Install Dependencies
+1. Make sure Python is installed on your system.
+2. Clone this repository:
 
-Open a terminal inside the project folder:
+```
+git clone <your-repo-link>
+```
 
+3. Navigate into the project folder:
 
-pip install colorama
+```
+cd project
+```
 
+---
 
-🚀 Run the Program
+## ▶️ How to Run
 
+Run the CLI program:
 
-python todo.py
+```
+python cli.py
+```
 
- 📝 Usage
+---
 
-After running the script, you will see a menu:
+## 📘 Usage
 
+When you run the program, you will see a menu like this:
 
-1. View Tasks
-2. Add Task
-3. Edit Task
-4. Delete Task
-5. Mark Completed
-6. Clear All Tasks
+```
+====== To-Do List Menu ======
+1. Add a new task
+2. Update a task
+3. Delete a task
+4. View all tasks
+5. Mark task as complete
+6. View completed tasks
 7. Exit
+=============================
+```
 
+Choose any option (1–7) to perform actions.
 
-Choose any option by entering the corresponding number.
+---
 
-📂 Data Files
+## 🗂️ Data Files
 
-tasks.json
+This project stores tasks in JSON files:
 
-Stores all active tasks with fields:
+* `tasks.json` → stores **pending tasks**
+* `completed.json` → stores **completed tasks**
 
-* title
-* priority
-* description
-* deadline or daily-task flag
-* status
+These files auto-update based on your actions.
 
- completed.json
+---
 
-Stores completed tasks with:
+## 📸 Screenshots
 
-* title
-* original deadline
-* priority
-* completion date
-* finished_before_deadline (true/false)
+You can add screenshots like this:
 
-📸 Screenshots
+```
+![Screenshot](./screenshot.png)
+```
 
-![Screenshot](sss/your_image_name.png)
+---
 
+## 🤝 Contributing
 
-Example:
-![Menu](sss/ss1.png)
+Feel free to contribute by opening issues or pull requests.
 
-🤝 Contributing
+---
 
-Feel free to contribute by creating issues or submitting pull requests.
-
-📜 License
+## 📜 License
 
 This project is open-source and free to use.
 
-
+---
 
