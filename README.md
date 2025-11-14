@@ -44,8 +44,6 @@ git clone <your-repo-link>
 cd project
 ```
 
----
-
 ▶️ How to Run
 
 Run the CLI program:
