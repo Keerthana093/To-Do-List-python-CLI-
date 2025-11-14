@@ -6,13 +6,13 @@ All data is stored locally in JSON files.
 
 ✨ Features
 
-* ➕ **Add Tasks**
-* 📋 **View Tasks**
-* 🔄 **Update Tasks**
-* ❌ **Delete Tasks**
-* 📝 **Mark Tasks as Completed / Pending**
-* 💾 **Persistent Storage using JSON**
-* 🖥️ **Fully CLI-Based (Terminal Project)**
+* ➕ Add Tasks
+* 📋 View Tasks
+* 🔄 Update Tasks
+* ❌ Delete Tasks
+* 📝 Mark Tasks as Completed / Pending
+* 💾 Persistent Storage using JSON
+* 🖥️ Fully CLI-Based (Terminal Project)
 
 📁 Project Structure
 
